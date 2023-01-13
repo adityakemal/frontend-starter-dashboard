@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+$primaryColor: #244093;
+$dangerColor: #E54E26;
+
+
+.pointer {
+    cursor: pointer;
+}
+
+@import './styles/auth.scss';
+@import './styles/shared.scss';
