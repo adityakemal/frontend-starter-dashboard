@@ -126,7 +126,7 @@
 // export default Login;
 
 import React from "react";
-import { Button, Checkbox, Form, Input } from "antd";
+import { Button, Form, Input } from "antd";
 
 import * as Yup from "yup";
 
