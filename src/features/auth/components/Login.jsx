@@ -165,7 +165,8 @@ export default function Login() {
         onFinishFailed={onFinishFailed}
         autoComplete="off"
         layout={"vertical"}
-        scrollToFirstError={true}>
+        scrollToFirstError={true}
+      >
         <Form.Item label="Email" name="email" rules={[yupSync]}>
           <Input />
         </Form.Item>
@@ -179,7 +180,6 @@ export default function Login() {
             Submit
           </Button>
         </Form.Item>
-        
       </Form>
     </div>
   );
